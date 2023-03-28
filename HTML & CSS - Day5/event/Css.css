@@ -1,0 +1,156 @@
+.row1{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    min-width: 500px;
+    border: solid black;
+}
+.row2{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.j{
+    margin: 0 0 60px 0;
+}
+.column{
+    padding: 5px;
+    margin: 20px;
+    width: 20%;
+    height: 215px;
+    background-color: white;
+    border: solid black;
+
+}
+.c{
+   display: flex;
+   margin: 10px;
+}
+.clmn1{
+    width: 45%;
+    height: 150px;
+    border: solid black;
+}
+.clmn2{
+    margin: 10px;
+}
+.clmn12{
+    margin: 10px 10px 10px 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 126x;
+    height: 125px;
+    background-color: white;
+    border: solid black;
+    border-radius: 60%;
+}
+.btn{
+    width: 73px;
+    height: 28px;
+    background-color: white;
+    border: solid black;
+}
+.btna{
+    width: 69px;
+    height: 28px;
+    background-color: white;
+    border: solid black;
+}
+.container{
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border: solid black;
+    /* margin: 0px auto;
+    min-width: 500px; */
+}
+.image{
+    color: black;
+    padding: 2px;
+    margin-bottom: 3px;
+}
+
+/* mobile device */
+@media(max-width:1024px) {
+    .row1{
+        width: 100px;
+        height: 35px;
+        background-color: white;
+        padding: 5px;
+        box-sizing: border-box;
+        margin: 0px auto;
+        min-width: 500px;
+        border: solid black;
+    }
+    .row2{
+        margin: 5px;
+        display: row;
+        justify-content: space-evenly;
+    }
+    .j{
+        margin: 0 0 60px 0;
+    }
+    .column{
+        padding: 5px;
+        margin: 20px;
+        width: 20%;
+        height: 215px;
+        background-color: white;
+        border: solid black;
+    
+    }
+    .c{
+       display: row;
+       margin: 10px;
+    }
+    .clmn1{
+        width: 45%;
+        height: 150px;
+        border: solid black;
+    }
+    .clmn2{
+        margin: 10px;
+    }
+    .clmn12{
+        margin: 10px 10px 10px 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        width: 126x;
+        height: 125px;
+        background-color: white;
+        border: solid black;
+        border-radius: 60%;
+    }
+    .btn{
+        margin-bottom: 100%;
+        width: 73px;
+        height: 28px;
+        background-color: white;
+        border: solid black;
+    }
+    .btna{
+        width: 69px;
+        height: 28px;
+        background-color: white;
+        border: solid black;
+    }
+    .container{
+        width: 100%;
+        height: 50%;
+        background-color: white;
+        border: solid black;
+        /* margin: 0px auto;
+        min-width: 500px; */
+    }
+    .image{
+        color: black;
+        padding: 0px;
+        margin: 0 0px 10px 10 ;
+        margin-bottom: 3px;
+    }
+}
+
+
